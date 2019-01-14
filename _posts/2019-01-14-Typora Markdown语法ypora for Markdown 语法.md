@@ -13,7 +13,7 @@ comments: true
 ---
 
 # Typora for Markdown 语法
-   >==说明，本文档转自该博客，结合自身稍作修改==[博客](https://lyonling.github.io/2019/01/05/Typora-Markdown%E8%AF%AD%E6%B3%95/)
+   >==说明，本文档转自该博客，结合自身稍作修改，有些效果没有显示出来，大家可以把我的源码复制到typora查看效果会很好==[博客](https://lyonling.github.io/2019/01/05/Typora-Markdown%E8%AF%AD%E6%B3%95/)
 
 ### 前言
 
