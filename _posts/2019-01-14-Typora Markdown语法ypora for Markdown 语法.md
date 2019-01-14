@@ -2,7 +2,7 @@
 layout:     post
 title:      Typora for Markdown
 subtitle:    Markdown tutorial
-date:       2019-01-05
+date:       2019-01-14
 author:     Lyon Ling
 header-img: img/tag-bg-o.jpg
 catalog: true
