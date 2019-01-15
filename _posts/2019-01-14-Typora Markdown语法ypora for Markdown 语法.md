@@ -9,6 +9,7 @@ catalog: true
 tags:
     - Markdown
     - Turotial
+    - typora
 comments: true
 ---
 
