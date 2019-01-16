@@ -548,7 +548,7 @@ st->op1->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op1
 ```
-![](/img2/Snipaste_2019-01-16_12-50-30)
+![](/img2/Snipaste_2019-01-16_12-50-30.png)
 
 
 - 流程图（Mermaid）
@@ -632,7 +632,7 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
-![](/img2/Snipaste_2019-01-16_12-49-00)
+![](/img2/Snipaste_2019-01-16_14-49-51.png)
 
 - Git
 
@@ -654,7 +654,7 @@ commit
 commit
 merge newbranch
 ```
-![](/img2/Snipaste_2019-01-16_12-49-42)
+![](/img2/Snipaste_2019-01-16_14-51-15.png)
 ## 主题替换
 访问：[http://theme.typora.io/](http://theme.typora.io/)
 放入主题文件夹，重启软件就ok了
