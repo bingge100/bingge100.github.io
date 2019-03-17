@@ -226,7 +226,7 @@ https://lyonling.github.io/2019/01/05/Typora-Markdown%E8%AF%AD%E6%B3%95/www.baid
 
 例如：`$lim_{x \to \infty} \ exp(-x)=0$`将产生如下的数学表达式：
 
-​                             $lim_{x \to \infty} \ exp(-x)=0$
+​                             $lim_{x \to \infty} \ exp(-x)=0​$
 
 输入两个`$`符号，然后回车，就可以输入==数学表达式块==了。例如：
 
