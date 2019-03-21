@@ -3,6 +3,16 @@
 
 ---
 
+<hr>
+<h2 id="layout-----post------------使用的布局（不需要改）title------my-first-post------标题subtitle---hello-world-hello-blog-副标题date-------2019-01-14------时间author-----by--------作者header-img-imgpost-bg-2015.jpg--这篇文章标题背景图片catalog-true--------是否归档tags--------标签--生活">layout:     post   				    # 使用的布局（不需要改）<br>
+title:      My First Post 				# 标题<br>
+subtitle:   Hello World, Hello Blog #副标题<br>
+date:       2019-01-14 				# 时间<br>
+author:     BY 						# 作者<br>
+header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片<br>
+catalog: true 						# 是否归档<br>
+tags:								#标签<br>
+- 生活</h2>
 <h1 id="pro-tips-to-master-quip">15 pro tips to master Quip</h1>
 <p>This guide shares  <strong>tips from some of the most successful companies who run their business on Quip.</strong></p>
 <p>Ready to take your Quip experience to the next level? This guide is here to help.</p>
