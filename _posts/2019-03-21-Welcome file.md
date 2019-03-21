@@ -13,18 +13,7 @@ comments: true
 
 ---
 
-<hr>
-<h2 id="layout-----posttitle-----15-pro-tips-to-master-quipsubtitle----markdown-tutorialdate-------2019-03-21author-----大兵哥header-img-imgtag-bg-o.jpgcatalog-truetags--知识管理--软件学习comments-true">layout:     post<br>
-title:     15 pro tips to master Quip<br>
-subtitle:    Markdown tutorial<br>
-date:       2019-03-21<br>
-author:     大兵哥<br>
-header-img: img/tag-bg-o.jpg<br>
-catalog: true<br>
-tags:<br>
-- 知识管理<br>
-- 软件学习<br>
-comments: true</h2>
+
 <h1 id="pro-tips-to-master-quip">15 pro tips to master Quip</h1>
 <p>This guide shares  <strong>tips from some of the most successful companies who run their business on Quip.</strong></p>
 <p>Ready to take your Quip experience to the next level? This guide is here to help.</p>
