@@ -34,5 +34,5 @@ comments: true
 
 运行：shift+enter
 
-![](/../img2/Snipaste_2019-01-16_00-06-06.png)
+
 
