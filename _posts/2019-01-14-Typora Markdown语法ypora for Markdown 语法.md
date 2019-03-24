@@ -584,7 +584,7 @@ st->op1->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op1
 ```
-![](../img2/Snipaste_2019-01-16_12-50-30.png)
+![](/../img2/Snipaste_2019-01-16_12-50-30.png)
 
 
 - 流程图（Mermaid）
@@ -600,7 +600,7 @@ graph TD;
     开始-->条件A;
     条件D-->结束;
 ```
-![](../img2/Snipaste_2019-01-16_12-57-01.png)
+![](/../img2/Snipaste_2019-01-16_12-57-01.png)
 - 时序图（Mermaid）
 
 ```mermaid
