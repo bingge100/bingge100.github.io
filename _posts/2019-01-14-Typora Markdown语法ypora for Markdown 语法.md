@@ -162,7 +162,7 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 
 [https://www.truben.no/table/](https://www.truben.no/table/)
 
-![效果图](/img2/Snipaste_2019-01-16_12-26-53.png)
+![效果图](/../img2/Snipaste_2019-01-16_12-26-53.png)
 
 下面就是我拷贝过来的代码式样
 
