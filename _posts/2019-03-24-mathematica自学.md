@@ -1,5 +1,4 @@
-
-​---
+---
 layout:     post
 title:     mathematica自学教程
 subtitle:    Markdown tutorial
@@ -8,11 +7,12 @@ author:     大兵哥
 header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
+
     - 知识管理
-    - 软件学习
+        - 软件学习
 comments: true
 typora-root-url: ..\img2
-​---
+---
 
 
 # mathematica自学
@@ -23,7 +23,7 @@ typora-root-url: ..\img2
 
 第一个程序：
 
-![图片](/img2/1553439310559.png)
+![图片](../img2/1553439310559.png)
 
 从这个图片可以看出：
 
