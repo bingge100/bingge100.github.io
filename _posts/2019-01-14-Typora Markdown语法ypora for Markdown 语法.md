@@ -161,7 +161,7 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 
 [https://www.truben.no/table/](https://www.truben.no/table/)
 
-![效果图](/img2/Snipaste_2019-01-16_12-26-53.png)
+![效果图](../img2/Snipaste_2019-01-16_12-26-53.png)
 
 下面就是我拷贝过来的代码式样
 
@@ -583,7 +583,7 @@ st->op1->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op1
 ```
-![](/img2/Snipaste_2019-01-16_12-50-30.png)
+![](../img2/Snipaste_2019-01-16_12-50-30.png)
 
 
 - 流程图（Mermaid）
@@ -599,7 +599,7 @@ graph TD;
     开始-->条件A;
     条件D-->结束;
 ```
-![](/img2/Snipaste_2019-01-16_12-57-01.png)
+![](../img2/Snipaste_2019-01-16_12-57-01.png)
 - 时序图（Mermaid）
 
 ```mermaid
@@ -615,7 +615,7 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
-![](/img2/Snipaste_2019-01-16_12-58-27.png)
+![](../img2/Snipaste_2019-01-16_12-58-27.png)
 - 时序图（Sequence）
 
 ```sequence
@@ -625,7 +625,7 @@ John-->>Alice: Great!
 John->>Bob: How about you?
 Bob-->>John: Jolly good!
 ```
-![](/img2/Snipaste_2019-01-16_12-59-33.png)
+![](../img2/Snipaste_2019-01-16_12-59-33.png)
 - 甘特图（Mermaid）
 
 ```mermaid
@@ -645,7 +645,7 @@ gantt
         Create tests for renderer           :2d
         Add to mermaid                      :1d
 ```
-![](/img2/Snipaste_2019-01-16_13-00-23.png)
+![](../img2/Snipaste_2019-01-16_13-00-23.png)
 ------
 
 - 其他 Mermaid 图（目前还有点问题，不建议使用）
@@ -667,7 +667,7 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
-![](/img2/Snipaste_2019-01-16_14-49-51.png)
+![](../img2/Snipaste_2019-01-16_14-49-51.png)
 
 - Git
 
@@ -689,7 +689,7 @@ commit
 commit
 merge newbranch
 ```
-![](/img2/Snipaste_2019-01-16_14-51-15.png)
+![](../img2/Snipaste_2019-01-16_14-51-15.png)
 ## 主题替换
 访问：[http://theme.typora.io/](http://theme.typora.io/)
 放入主题文件夹，重启软件就ok了
