@@ -1,4 +1,4 @@
----
+
 ​---
 layout:     post
 title:     mathematica自学教程
@@ -11,9 +11,9 @@ tags:
     - 知识管理
     - 软件学习
 comments: true
-
+typora-root-url: ..\img2
 ​---
----
+
 
 # mathematica自学
 
