@@ -17,7 +17,12 @@ typora-root-url: ..\img2
 # Typora for Markdown 语法
    >==说明，本文档转自该博客，结合自身稍作修改，有些效果没有显示出来，大家可以把我的源码复制到typora查看效果会很好==[博客](https://lyonling.github.io/2019/01/05/Typora-Markdown%E8%AF%AD%E6%B3%95/)
 
-### 前言
+<select>
+    <option>中文</option>
+    <option>English</option>
+</select>
+
+# 前言
 
 > **Markdown** 是一种**轻量级**标记语言，创始人是**约翰·格鲁伯**（John Gruber）。它允许人们 “使用易读易写的纯文本格式编写文档，然后转换成有效的 HTML 文档。
 
@@ -27,24 +32,33 @@ Typora是一款轻量级的Markdown 编辑器，重点在于所见即所得，�
 
 这边简单介绍一下Typora上支持的markdown语法，因为这个博客markdown解析引擎的不同，有些语法不能很好的在博文里展现效果，感兴趣的话可以放到typora里尝试。
 
-### 目录列表Table of Contents（TOC）
+# 目录列表Table of Contents（TOC）
 
 输入[toc]然后回车，将会产生一个目录，这个目录抽取了文章的所有标题，自动更新内容。
 
-### **标题**
+[TOC]
 
-使用#表示一级标题，##表示二级标题，以此类推，有6个标题。
+
+
+###  **标题**
+
+在markdown语法里面，使用#表示一级标题，##表示二级标题，以此类推，有6个标题，一个一个去输入比较麻烦，好在typora有快捷键。
 
 `Ctrl 0` 到 `Ctrl 6`：普通文本、一级～六级标题；
 
-```html
+```markdown
 <h1># 1</h1>
 <h2>## 1</h2>
 ```
 
+### 换行
+
+`<br/>`在后面不管输入什么，都会强制换行。
+     <br/>f'fhhhha
+
 ### 加粗
 
-`Ctrl B`：加粗，**加粗测试**；
+或者\**[]** 对其进行加粗， 快捷键`Ctrl B`：加粗，**加粗测试**；
 
 ### 斜体
 
@@ -84,6 +98,8 @@ eg. *这是斜体*
 
 <strong>强调</strong>`加黑强调`
 
+
+
 ### 转义字符
 
 但是**如果你的 \* 和 _ 两边都有空白的话，它们就只会被当成普通的符号。**
@@ -103,6 +119,8 @@ eg. *这是斜体*
 GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使用`~~`包裹的文本将会具有删除的样式。
 
 ### 代码块
+
+快捷键`Ctrl+shift+k`
 
 `Shift Ctrl Tab键上面那个键 `：行内代码块，`行内代码块测试`；
 
@@ -130,11 +148,9 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 
 如果是标准的url，则会自动产生连接，例如: 。
 
-关于链接：英文输入下的中括号，里面填上你想写的话，然后在后面输入小括号里面贴上链接地址就可以了 ，它的快捷键是`Ctrl+K` 。
+关于链接：英文输入下的中括号，里面填上你想写的话，然后在后面输入小括号里面贴上链接地址就可以了 ，
 
 例如： `[百度一下](www.baidu.com)` 就可以变成 [百度一下](www.baidu.com)
-
-
 
 ### 表格
 
@@ -174,10 +190,6 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 
 
 
-
-
-
-
 ### 引用
 
 `Ctrl Shift Q`：引用：
@@ -188,7 +200,7 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 >
 > —— 蒙田
 
-使用>来插入块引用。例如：
+使用>来插入块引用，输入空格。例如：
 
 ```
 >这是一个块引用！
@@ -249,6 +261,8 @@ $$\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} \mathbf{i} & \mathbf{j} & 
 
 代码块（我居然不能转义那个字符，就 Tab 键上面那个）：三个飘号键
 
+快捷键：`CTRL+shift+~`
+
 ```
 ​```
 ```
@@ -264,9 +278,19 @@ os.system('rm ./List.txt')
 print('成功删除文件')
 ```
 
+`<code>hh</code>`
+
+<code>hh</code>
+
+`<pre>hh</pre>`
+
+<pre>hh</pre>
+
 ### 列表
 
-输入+, -, *,(+空格)创建无序的列表，使用任意数字开头，创建有序列表，例如：
+输入+, -, *,(+空格)创建无序的列表，使用任意数字开头，创建有序列表，跳出可以先删除，然后逐级按enter键
+
+例如：
 
 ```
 **无序的列表**
@@ -304,9 +328,9 @@ print('成功删除文件')
 - [ ] 看电影
 ```
 
-- 吃饭
-- 逛街
-- 看电影
+- [ ] 吃饭
+- [x] 逛街
+- [ ] 看电影
 
 ### 参考链接：
 
@@ -362,17 +386,15 @@ print('成功删除文件')
 
 使用`***`或者`---`，然后回车，来产生水平分割线。
 
+
+
 ### 插入表情
 
 使用`:happy:`输入高兴的表情，使用`:sad:`输入悲伤的表情，使用`:cry:`输入哭的表情等。以此类推！
 
 :happy::cry: :weary:
 
-
-
-
-
-### 
+### 强调
 
 使用两个*号或者两个_包裹的内容将会被强调。例如
 
@@ -543,7 +565,7 @@ emoji图标：冒号+随便一些字
 toc
 ```
 
-# Markdown 拓展功能
+## Markdown 拓展功能
 
 HTML 原生支持，目前只支持 img 标签，用以自定义图片大小和缩放：
 
@@ -692,8 +714,27 @@ merge newbranch
 ```
 ![](../img2/Snipaste_2019-01-16_14-51-15.png)
 ## 主题替换
+
 访问：[http://theme.typora.io/](http://theme.typora.io/)
 放入主题文件夹，重启软件就ok了
+
+## 编辑器
+
+编辑器众多，然而我正是用typora写下的这篇教程
+
+* 软件
+  + [typora](http://support.typora.io/)
+  + [MarkdownPad](http://markdownpad.com/)
+  + [MarkPad](http://code52.org/DownmarkerWPF/)
+* 在线编辑器
+  +  [stack edit](https://stackedit.io/app#)
+  +  [csdn](https://mp.csdn.net/mdeditor?not_checkout=1#_141)
+  +  [简书](https://www.jianshu.com/writer#/notebooks/14380599/notes/43746203)
+  +  [MD editor](https://www.mdeditor.com/)
+* 参考网站：[菜鸟教程](http://www.runoob.com/)
+* 工具：Google浏览器插件[Markdown here](https://markdown-here.com/)
+* : 🇧🇷 :
+<textarea id="myEditor" class="mono form-control wmd-input tabIndent" style="background-position: right top; background-repeat: no-repeat;">GEEK 们，玩起来！</textarea>
 
 ## 文章导出
 
@@ -723,4 +764,10 @@ merge newbranch
 下划线：ctrl+u
 删除线：alt+shift+5
 插入图片：直接拖动到指定位置即可或者ctrl+shift+i
+
+---
+
+[TOC]
+
+
 
