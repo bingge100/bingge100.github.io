@@ -18,9 +18,16 @@ comments: true
 ## mathematica功能
 
 + 数值计算，数值精算程序都尽量精确 ,由N（）函数控制
+
 + 符号计算
+
 + 绘图功能
+
 + 编程功能
+
++ ```html
+  <video src="https://www.iqiyi.com/v_19rshrd2d0.html" />
+  ```
 
 ## 基本技巧
 
@@ -226,7 +233,7 @@ tips:防止死循环,break[]函数
 
   + 极坐标式$\rho=\rho(\theta),\rho=\frac{1}{3} e^{2 \theta}​$
 $$
-    PolarPlot [\rho(\theta),\{\theta, \theta 1, \theta 2\}]
+PolarPlot [\rho(\theta),\{\theta, \theta 1, \theta 2\}]
 $$
     << Graphics`
     PolarPlot[1 – 2 Cos[t], {t, 0, 2 Pi}]
