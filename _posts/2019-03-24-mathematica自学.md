@@ -25,9 +25,9 @@ comments: true
 
 + 编程功能
 
-+ ```html
+
   <video src="https://www.iqiyi.com/v_19rshrd2d0.html" />
-  ```
+
 
 ## 基本技巧
 
