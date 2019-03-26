@@ -230,8 +230,10 @@ tips:防止死循环,break[]函数
 + 平面曲线表示法
   + 直角坐标显式(简称显式)，直接输入$y=e^{-x} \sin x, \quad y=4+2 x-x^{3}$
 
+    $$
     Plot[f(x)，{x，x1，x2}，可选项]
     Plot[{f1(x)，f2(x)，…}，{x，x1，x2}，可选项]
+    $$
 
   + 直角坐标隐式(简称隐式)$F(x, y)=0  ,x^2+y^2=0$
 
@@ -242,13 +244,14 @@ tips:防止死循环,break[]函数
 
   + 参数式$z = x(t)，y = y(t)$
 
+    $$
     ParametricPlot[{x(t), y(t)}, {t, t1, t2}, 可选项]
     ParametricPlot[{{x1(t)，yl(t)}，{x2(t)，y2(t)}，…}，{t，t1，t2}，可选项]
-
+    $$
   + 极坐标式$\rho=\rho(\theta),\rho=\frac{1}{3} e^{2 \theta}​$
-$$
-PolarPlot [\rho(\theta),\{\theta, \theta 1, \theta 2\}]
-$$
+     $$
+     PolarPlot [\rho(\theta),\{\theta, \theta 1, \theta 2\}]
+     $$
     << Graphics`
     PolarPlot[1 – 2 Cos[t], {t, 0, 2 Pi}]
 
