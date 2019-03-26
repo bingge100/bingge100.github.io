@@ -216,7 +216,7 @@ $$
 + Do 结构、For 与 While 结构
   + $Do[expr,{i,imin,imax,di}] $ 循环计算 expr，步长为 di，i从 imin 增加 imax(步长缺省则默认为 1，imin 缺省也默认为 1)
   + $Do[expr,{n}] $ 循环计算 expr 共 n 次
-  + $Do[expr,{i,imin,imax,di},{j,jmin,jmax,dj}] ​$循环计算 expr，i 从 imin 到 imax 循环，对于每个 i，j 从jmin 到 jmax 循环（即多重循环）
+  + $Do[expr,{i,imin,imax,di},{j,jmin,jmax,dj}] $循环计算 expr，i 从 imin 到 imax 循环，对于每个 i，j 从jmin 到 jmax 循环（即多重循环）
 
 + For
   + $For[start,test,incr,body] $以 start 为起始值，重复计算执行主体 body 和执行表达式incr 改变循环变量的值，直到 test 为假 
@@ -240,7 +240,7 @@ tips:防止死循环,break[]函数
     << Graphics` 调入包
     ImplicitPlot[x^4 + y^4 – 18 (x^2 + y^2) + 14 ==0, {x, -6, 6}]
 
-  + 参数式$z = x(t)，y = y(t)​$
+  + 参数式$z = x(t)，y = y(t)$
 
     ParametricPlot[{x(t), y(t)}, {t, t1, t2}, 可选项]
     ParametricPlot[{{x1(t)，yl(t)}，{x2(t)，y2(t)}，…}，{t，t1，t2}，可选项]
