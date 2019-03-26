@@ -216,20 +216,7 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 
 ```markdown
 > hahhh
-  > hhhh
 ```
-
-````
-> hhhhh
->
-> > hhhhhh
-> >
-> > nnnn
->
-> > 
-````
-
-
 
 ### 插入图片
 
@@ -442,8 +429,6 @@ Adobe illustrator
 matlab
 
 mathmaticas
-
-
 
 
 
@@ -754,8 +739,8 @@ merge newbranch
   +  [MD editor](https://www.mdeditor.com/)
 * 参考网站：[菜鸟教程](http://www.runoob.com/)
 * 工具：Google浏览器插件[Markdown here](https://markdown-here.com/)
-* : 🇧🇷 :
-<textarea id="myEditor" class="mono form-control wmd-input tabIndent" style="background-position: right top; background-repeat: no-repeat;">GEEK 们，玩起来！</textarea>
+
+
 
 ## 文章导出
 
