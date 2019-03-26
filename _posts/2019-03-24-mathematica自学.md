@@ -25,9 +25,6 @@ comments: true
 
 + 编程功能
 
-
-  <video src="https://www.iqiyi.com/v_19rshrd2d0.html" />
-
 ## 笔记本
 
 + 自由格式语言输入
