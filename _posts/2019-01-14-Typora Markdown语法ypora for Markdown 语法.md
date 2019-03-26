@@ -214,11 +214,12 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 
 嵌套引用
 
-```
->hahhh
+```markdown
+> hahhh
   > hhhh
 ```
 
+````
 > hhhhh
 >
 > > hhhhhh
@@ -226,6 +227,9 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 > > nnnn
 >
 > > 
+````
+
+
 
 ### 插入图片
 
