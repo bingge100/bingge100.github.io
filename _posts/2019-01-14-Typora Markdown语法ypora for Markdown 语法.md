@@ -428,11 +428,7 @@ Adobe illustrator
 
 matlab
 
-mathmaticas
-
-
-
-
+mathmatica
 
 ### 常用快捷键
 
@@ -506,15 +502,7 @@ import os
 
 - 001
 
-  - 
-
-    - 
-
-      
-
-      
-
-      ​	
+  ​	
 
 有序
 
