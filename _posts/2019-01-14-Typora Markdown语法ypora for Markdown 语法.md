@@ -212,6 +212,21 @@ GFM添加了删除文本的语法，这是标准的Markdown语法木有的。使
 
 > 这是一个块引用！
 
+嵌套引用
+
+```
+>hahhh
+  > hhhh
+```
+
+> hhhhh
+>
+> > hhhhhh
+> >
+> > nnnn
+>
+> > 
+
 ### 插入图片
 
 `Shift Ctrl I`：图片：
