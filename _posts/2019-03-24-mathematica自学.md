@@ -244,10 +244,7 @@ tips:防止死循环,break[]函数
 
   + 参数式$z = x(t)，y = y(t)$
 
-    ```
-    ParametricPlot[{x(t), y(t)}, {t, t1, t2}, 可选项]
-    ParametricPlot[{{x1(t)，yl(t)}，{x2(t)，y2(t)}，…}，{t，t1，t2}，可选项]
-    ```
+   
   + 极坐标式$\rho=\rho(\theta),\rho=\frac{1}{3} e^{2 \theta}​$
      $$
      PolarPlot [\rho(\theta),\{\theta, \theta 1, \theta 2\}]
